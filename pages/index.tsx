@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Box pt={8} bg="#101010">
       <Init />
-      <Divider />
+      <Divider pt={8} />
       <DadosFooter />
       <Footer />
     </Box>
