@@ -1,6 +1,5 @@
 import { Box, SimpleGrid, Popover, PopoverTrigger, PopoverContent, Image, Center } from '@chakra-ui/core'
 import React, { useState } from 'react'
-import Lightbox from 'react-image-lightbox'
 
 const img = [
     '/portfolio-img1.jpg',
