@@ -1,21 +1,25 @@
-import { Box, Heading, Image, Text } from '@chakra-ui/core'
+import { Box, Flex, Heading, Image, Text } from '@chakra-ui/core'
 import React from 'react'
 
 export default function ImgPortfolio() {
     return (
-        <Box
+        <Flex
             mb={15}
             backgroundImage="url('/portfolio-header.jpg')"
             backgroundPosition="center"
             bgRepeat="no-repeat"
             h={[300, 400, 600]}
-            objectFit="none" >
-            <Box w="80%" pt={[0, 40, 100]} >
+            objectFit="none"
+            pt={[0,100,0]}
+            px={10}
+            justifyContent="center"
+            alignContent="center" 
+            flexDirection="column"
+            textAlign="center">
                 <Heading color="black" >Nossos Projetos</Heading>
                 <Text color="black" align="center">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.
                 </Text>
-            </Box>
-        </Box>
+        </Flex>
     )
 }
