@@ -23,7 +23,6 @@ export default function Contato() {
                     <MailPhone />
                 </Box>
             </SimpleGrid>
-
         </Box>
     )
 }
