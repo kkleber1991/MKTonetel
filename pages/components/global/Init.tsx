@@ -1,8 +1,14 @@
 import { Box, Divider, Flex, Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/core'
 import React from 'react'
+import About from '../paginas/about/About'
+import ImgAbout from '../paginas/about/ImgAbout'
+import Contato from '../paginas/contato/Contato'
+import ImgContato from '../paginas/contato/ImgContato'
 import Home from '../paginas/home/Home'
 import HVStack from '../paginas/home/HVStack'
 import ImgHome from '../paginas/home/ImgHome'
+import ImgPortfolio from '../paginas/portfolio/ImgPortfolio'
+import Portfolio from '../paginas/portfolio/Portfolio'
 
 export default function Init() {
     return (
@@ -23,7 +29,16 @@ export default function Init() {
                             <HVStack />
                         </TabPanel>
                         <TabPanel>
-                            <p>two!</p>
+                            <ImgAbout />
+                            <About />
+                        </TabPanel>
+                        <TabPanel>
+                            <ImgPortfolio />
+                            <Portfolio />
+                        </TabPanel>
+                        <TabPanel>
+                            <ImgContato />
+                            <Contato />
                         </TabPanel>
                     </TabPanels>
                 </Tabs>

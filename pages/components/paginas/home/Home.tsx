@@ -3,7 +3,6 @@ import React from 'react'
 import BoxHome1 from './BoxHome1'
 import BoxHome2 from './BoxHome2'
 import BoxHome3 from './BoxHome3'
-import HVStack from './HVStack'
 
 export default function Home() {
     return (

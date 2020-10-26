@@ -9,8 +9,8 @@ import TemplateFree from '../dadosfooter/TemplateFree';
 
 export default function DadosFooter() {
     return (
-        <Box w="100%" bg="#202020" display="flex" justifyContent="center" >
-        <SimpleGrid columns={[1, 2, 3]} spacing={40} w="95%">
+        <Box w="100%" bg="#202020" display="flex" justifyContent="center" h="100%" >
+        <SimpleGrid columns={[1, 2, 3]} spacing={5} w="95%">
                 <Box h={190} flex={1} >
                     <TemplateFree />
                 </Box>
