@@ -7,14 +7,12 @@ import NameMail from './NameMail'
 export default function Contato() {
     return (
         <Box>
-
             <Heading color="white" textAlign="center" >Entrar em contato</Heading>
             <Text color="white" textAlign="center" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet.
             Dolore magna aliquam erat volutpat.
             </Text>
-
-            <SimpleGrid columns={[1,2,3]} spacing={5} pt={8} >
+            <SimpleGrid columns={[1, 2, 3]} spacing={5} pt={8} >
                 <Box flex={1} >
                     <NameMail />
                 </Box>
