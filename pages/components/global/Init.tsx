@@ -46,5 +46,3 @@ export default function Init() {
         </Flex>
     )
 }
-
-// line,enclosed,enclosed-colored, soft-rounded, solid-rounded, unstyled
